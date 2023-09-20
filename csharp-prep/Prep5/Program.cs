@@ -20,12 +20,12 @@ class Program
             int number = int.Parse(Console.ReadLine());
             return number;
         }
-        static double SquareNumber(int number)
+        static int SquareNumber(int number)
         {
-            double squaredNumber = Math.Sqrt(number);
+            int squaredNumber = number * number;
             return squaredNumber;
         }
-        static void DisplayResult (string userName, double number)
+        static void DisplayResult (string userName, int number)
         {
             Console.WriteLine ($"{userName}, The square root of your favorite number is {number} ");
         }
@@ -33,7 +33,7 @@ class Program
         DisplayMessage();
         string userName = PromptUserName();
         int favNumber = PromptUserNumber();
-        double sqrtFavNumber = SquareNumber(favNumber);
+        int sqrtFavNumber = SquareNumber(favNumber);
         DisplayResult (userName, sqrtFavNumber);
 
 }}
