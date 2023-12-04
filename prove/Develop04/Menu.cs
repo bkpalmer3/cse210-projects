@@ -1,6 +1,6 @@
 public class Menu
 {
-    private string _menu = "Menu:\n 1. Start Breathing Activity\n 2. Start Reflecting Activity\n 3. Start listing Activity\n 4. Quit";
+    private string _menu = "Please select an option:\n \n Menu:\n 1. Start Breathing Activity\n 2. Start Reflecting Activity\n 3. Start listing Activity\n 4. Quit";
     private int _userInput;
 
     public Menu()
@@ -12,6 +12,7 @@ public class Menu
     {
         Console.WriteLine();
         Console.WriteLine(_menu);
+        Console.WriteLine();
     }
 
     public int EnterUserInput()
