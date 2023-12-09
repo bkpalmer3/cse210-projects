@@ -1,0 +1,2 @@
+50 Simple:Interview with brother gibbons,go to the interview,50,True
+50 CheckList:attend the temple,attend the temple twice a week,20,200,2,0,False
